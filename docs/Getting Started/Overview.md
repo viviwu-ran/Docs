@@ -9,8 +9,8 @@ RealRan is dedicated to building the Multi-party Trust Protocol in cryptography 
 
 **Protocol & Product**
 
-	● Distributed VRF API or smart contract  (MPC-VRF)
-
+​	● Distributed VRF API or smart contract  (MPC-VRF)
+	
 ​	● Efficient  and Secure TSS Library (Open-TSS)
 
 ​	● MPC-ZK and Specific Circuit Research
