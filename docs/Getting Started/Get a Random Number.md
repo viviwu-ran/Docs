@@ -10,7 +10,7 @@ The current version is `PlatON VRF v1`. In this version, the generated random va
 
 To use PlatON VRF, follow the steps below (Developers could refer to the `VRFConsumer.sol` sample contract):
 
-1. Get the `VRFCoordinator` address based on the network in the <a href="#Preparation">Preparation section</a> and update the `vrfCoordinator` address in the  `VRFConsumer.col`.
+1. Get the `VRFCoordinator` address based on the network in the <a href="#preparation">Preparation section</a> and update the `vrfCoordinator` address in the  `VRFConsumer.col`.
 2. Deploy the `VRFConsumer.col` contract. This example contract includes the `createNewSubscription()` function in the `constructor()` that creates the subscription and adds itself as a consumer automatically when you deploy it.
 3. Call the `syncRequestRandomWords()` function in the `VRFConsumer.col` contract to synchronously get random values.
 4. Or call the `requestRandomWords()` function in the `VRFConsumer.col` contract to asynchronously request random values which are returned via the callback function `fulfillRandomWords()`.
@@ -57,7 +57,7 @@ The contract also includes pre-configured values for the necessary request param
 
 ###  Deploy the `VRFConsumer.sol` contract
 
-Before the deployment, please get the `VRFCoordinator` address based on the network in the <a href="#Preparation">Preparation section</a>. In the `VRFConsumer.sol` contract, use **Devnet's** `VRFCoordinator` address.
+Before the deployment, please get the `VRFCoordinator` address based on the network in the <a href="#preparation">Preparation section</a>. In the `VRFConsumer.sol` contract, use **Devnet's** `VRFCoordinator` address.
 
 
 ![consumer_deploy](./imgs/consumer_deploy.png)
