@@ -27,7 +27,7 @@ One simple example is shown below to demonstrate how to use Remix IDE to deploy 
 - `VRFCoordinator` contract address：
 	- Mainnet: `0x57baeE54708657302E96004279a15D7c98cD1a42`
 	- Devnet: `0x356d552150f460f57Cd722DC4f3D03A3f2B8386C`
-- 
+	
 ## MetaMask Setup
 
 MetaMask is the most widely used browser plug-in wallet and users can easily interact with PlatON Devnet and Mainnet. See the [MetaMask Configure PlatON/Alaya Network](https://devdocs.platon.network/docs/en/MetaMask/) to learn to use it.
