@@ -2,6 +2,7 @@
 id: overview
 title: Overview
 sidebar_position: 1
+
 ---
 
 # RealRan 
@@ -16,7 +17,7 @@ The version mainly introduces an off-chain value generating mechanism. After rec
 
 The brief contract structure design is as follows:
 
-![contracts_overview](./imgs/contracts_overview.png)
+![contracts_overview](C:\Users\Vivi\Desktop\LatticeX\metabase\文档\github-p\vrf-docs\项目管理\操作手册\Getting Started\imgs\contracts_overview.png)
 
 - BLS Service : use multiple BLS private keys to sign seeds separately and aggregate the signatures.
 
